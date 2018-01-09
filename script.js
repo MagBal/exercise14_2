@@ -45,7 +45,7 @@ var moviesElements = movies.map(function(movie) {
         React.createElement('p', {}, movie.desc),
         React.createElement('img', {
             src: movie.image
-        }, )
+        })
     );
 });
 
